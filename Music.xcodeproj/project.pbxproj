@@ -14,6 +14,12 @@
 		266AE86D2079DD6700058AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266AE86B2079DD6700058AC9 /* LaunchScreen.storyboard */; };
 		266AE8782079DD6700058AC9 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266AE8772079DD6700058AC9 /* MusicTests.swift */; };
 		266AE8832079DD6700058AC9 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266AE8822079DD6700058AC9 /* MusicUITests.swift */; };
+		266AE8972079DD8C00058AC9 /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 266AE8912079DD8C00058AC9 /* aki.mp3 */; };
+		266AE8982079DD8C00058AC9 /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = 266AE8922079DD8C00058AC9 /* aki.png */; };
+		266AE8992079DD8C00058AC9 /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 266AE8932079DD8C00058AC9 /* ame.mp3 */; };
+		266AE89A2079DD8C00058AC9 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 266AE8942079DD8C00058AC9 /* ame.png */; };
+		266AE89B2079DD8C00058AC9 /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 266AE8952079DD8C00058AC9 /* natsu.mp3 */; };
+		266AE89C2079DD8C00058AC9 /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 266AE8962079DD8C00058AC9 /* natsu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		266AE87E2079DD6700058AC9 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		266AE8822079DD6700058AC9 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
 		266AE8842079DD6700058AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266AE8912079DD8C00058AC9 /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
+		266AE8922079DD8C00058AC9 /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		266AE8932079DD8C00058AC9 /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		266AE8942079DD8C00058AC9 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		266AE8952079DD8C00058AC9 /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		266AE8962079DD8C00058AC9 /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,7 @@
 				266AE8622079DD6700058AC9 /* AppDelegate.swift */,
 				266AE8642079DD6700058AC9 /* ViewController.swift */,
 				266AE8662079DD6700058AC9 /* Main.storyboard */,
+				266AE8902079DD8C00058AC9 /* Music素材 */,
 				266AE8692079DD6700058AC9 /* Assets.xcassets */,
 				266AE86B2079DD6700058AC9 /* LaunchScreen.storyboard */,
 				266AE86E2079DD6700058AC9 /* Info.plist */,
@@ -123,6 +136,19 @@
 				266AE8842079DD6700058AC9 /* Info.plist */,
 			);
 			path = MusicUITests;
+			sourceTree = "<group>";
+		};
+		266AE8902079DD8C00058AC9 /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				266AE8912079DD8C00058AC9 /* aki.mp3 */,
+				266AE8922079DD8C00058AC9 /* aki.png */,
+				266AE8932079DD8C00058AC9 /* ame.mp3 */,
+				266AE8942079DD8C00058AC9 /* ame.png */,
+				266AE8952079DD8C00058AC9 /* natsu.mp3 */,
+				266AE8962079DD8C00058AC9 /* natsu.png */,
+			);
+			path = "Music素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +258,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266AE89C2079DD8C00058AC9 /* natsu.png in Resources */,
+				266AE8992079DD8C00058AC9 /* ame.mp3 in Resources */,
 				266AE86D2079DD6700058AC9 /* LaunchScreen.storyboard in Resources */,
+				266AE89B2079DD8C00058AC9 /* natsu.mp3 in Resources */,
 				266AE86A2079DD6700058AC9 /* Assets.xcassets in Resources */,
+				266AE89A2079DD8C00058AC9 /* ame.png in Resources */,
+				266AE8972079DD8C00058AC9 /* aki.mp3 in Resources */,
 				266AE8682079DD6700058AC9 /* Main.storyboard in Resources */,
+				266AE8982079DD8C00058AC9 /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
